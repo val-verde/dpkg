@@ -19,7 +19,6 @@ AC_CONFIG_AUX_DIR([build-aux])
 AC_USE_SYSTEM_EXTENSIONS
 
 AM_INIT_AUTOMAKE(
-  [1.11]
   [-Wall]
   [foreign]
   [nostdinc]
