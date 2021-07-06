@@ -71,6 +71,12 @@ my $COMP = {
 	decomp_prog => [ 'unxz', '--format=lzma' ],
 	default_level => 6,
     },
+    zstd => {
+	file_ext => 'zst',
+	comp_prog => [ 'zstd', '-q' ],
+	decomp_prog => [ 'unzstd', '-q' ],
+	default_level => 19,
+    },
     xz => {
 	file_ext => 'xz',
 	comp_prog => [ 'xz' ],

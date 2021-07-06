@@ -108,7 +108,7 @@ usage(const struct cmdinfo *cip, const char *value)
 "      --[no-]uniform-compression   Use the compression params on all members.\n"
 "  -z#                              Set the compression level when building.\n"
 "  -Z<type>                         Set the compression type used when building.\n"
-"                                     Allowed types: gzip, xz, none.\n"
+"                                     Allowed types: gzip, xz, zstd, none.\n"
 "  -S<strategy>                     Set the compression strategy when building.\n"
 "                                     Allowed values: none; extreme (xz);\n"
 "                                     filtered, huffman, rle, fixed (gzip).\n"

@@ -42,6 +42,7 @@ enum compressor_type {
 	COMPRESSOR_TYPE_XZ,
 	COMPRESSOR_TYPE_BZIP2,
 	COMPRESSOR_TYPE_LZMA,
+	COMPRESSOR_TYPE_ZSTD,
 };
 
 enum compressor_strategy {

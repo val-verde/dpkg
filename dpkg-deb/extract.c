@@ -180,6 +180,7 @@ extracthalf(const char *debar, const char *dir,
           decompressor = compressor_find_by_extension(extension);
           if (decompressor != COMPRESSOR_TYPE_NONE &&
               decompressor != COMPRESSOR_TYPE_GZIP &&
+              decompressor != COMPRESSOR_TYPE_ZSTD &&
               decompressor != COMPRESSOR_TYPE_XZ)
             ohshit(_("archive '%s' uses unknown compression for member '%.*s', "
                      "giving up"),

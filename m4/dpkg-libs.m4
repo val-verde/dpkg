@@ -75,6 +75,13 @@ AC_DEFUN([DPKG_LIB_Z], [
   DPKG_WITH_COMPRESS_LIB([z], [zlib.h], [gzdopen])
 ])# DPKG_LIB_Z
 
+# DPKG_LIB_ZSTD
+# -------------
+# Check for zstd library.
+AC_DEFUN([DPKG_LIB_ZSTD], [
+  DPKG_WITH_COMPRESS_LIB([zstd], [zstd.h], [ZSTD_decompressStream])
+])# DPKG_LIB_ZSTD
+
 # DPKG_LIB_LZMA
 # -------------
 # Check for lzma library.

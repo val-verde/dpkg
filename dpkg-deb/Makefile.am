@@ -21,5 +21,6 @@ dpkg_deb_LDADD = \
 	../lib/dpkg/libdpkg.la \
 	$(LIBINTL) \
 	$(Z_LIBS) \
+	$(ZSTD_LIBS) \
 	$(LZMA_LIBS) \
 	$(BZ2_LIBS)

@@ -73,6 +73,7 @@ To enable optional functionality or programs, this software might be needed:
 
   libmd (used by libdpkg, currently falling back to embedded code)
   libz (from zlib, used instead of gzip command-line tool)
+  libzstd (from libzstd, used instead of zstd command-line tool)
   liblzma (from xz utils, used instead of xz command-line tool)
   libbz2 (from bzip2, used instead of bzip2 command-line tool)
   libselinux

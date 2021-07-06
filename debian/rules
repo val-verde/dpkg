@@ -65,6 +65,7 @@ build-tree/config.status:
 		--with-devlibdir=\$${prefix}/lib/$(DEB_HOST_MULTIARCH) \
 		--without-libmd \
 		--with-libz \
+		--with-libzstd \
 		--with-liblzma \
 		--with-libbz2
 

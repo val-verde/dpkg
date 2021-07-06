@@ -87,6 +87,7 @@ AC_SYS_LARGEFILE
 # Checks for libraries.
 DPKG_LIB_MD
 DPKG_LIB_Z
+DPKG_LIB_ZSTD
 DPKG_LIB_BZ2
 DPKG_LIB_LZMA
 DPKG_LIB_SELINUX
@@ -278,6 +279,7 @@ Configuration:
     libselinux  . . . . . . . . . : $have_libselinux
     libmd . . . . . . . . . . . . : $have_libmd
     libz  . . . . . . . . . . . . : $have_libz
+    libzstd  . . . . . . . . . .  : $have_libzstd
     liblzma . . . . . . . . . . . : $have_liblzma
     libbz2  . . . . . . . . . . . : $have_libbz2
     libcurses . . . . . . . . . . : ${have_libcurses:-no}
